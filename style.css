@@ -1,0 +1,227 @@
+html body{
+    height: 100%;
+    margin: 0;
+}
+h3{
+    width: 20ch;
+    font-family: monospace;
+    text-wrap: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(30) infinite alternate-reverse;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    color: orange;
+}
+@keyframes typing {
+    from {
+        width: 0ch;
+    }
+}
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+.marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 18px;
+    animation: marquee 7s linear infinite;
+}
+@keyframes marquee {
+    0%{
+        transform: translate(100%) scale(0.9);
+        opacity: 0;
+    }
+    10%{
+        transform: translateX(70%) scale(1);
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(0);
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+@keyframes colorChange {
+    0% {
+        color: pink;
+    }
+    25% {
+        color: orange;
+    }
+    50% {
+        color: purple;
+    }
+    75% {
+        color: green;
+    }
+    100% {
+        color: blue;
+    }
+}
+
+.marquee-content {
+    animation: marquee 7s linear infinite, colorChange 7s linear infinite;
+}
+.marquee-container{
+    width: 1250px;
+    height: 150px;
+    border: none;
+    padding:50px;
+    text-align: center;
+    background-color: papayawhip;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+.head{
+    background-image: url(./img/butchery-3.avif);
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background-position: 100%;
+    height:80dvb;
+    filter: brightness(90%);
+}
+body{
+    background-image: url(./but-5.avif) center/cover;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#img{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: nowrap;
+
+}
+#img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.reach img{
+    display: flex;
+    justify-content: center;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    gap: 10px;
+    text-align: center;
+}
+.atag{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+.atag ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    gap: 300px;
+}
+
+.atag ul li {
+    display: inline;
+}
+
+.atag ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.atag ul li a:hover {
+    background-color: #111;
+}
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+.reach p{
+    color: green;
+    text-align:left;
+    font-size: 30px;
+}
+#comb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.comb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
+    text-align: center;
+}
+.comb img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.comb aside {
+    max-width: 200px;
+    text-align: center;
+}
+.par {
+    width: 90%;
+    max-width: 800px;
+    text-align: justify;
+    margin-top: 20px;
+    clear: both;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; 
+}
+
+
+body, p, span, li, a {
+    font-family: 'Merriweather', serif;
+    font-weight: 400; 
+    line-height: 1.6;
+    color: #333; 
+}
+button, input, textarea {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 20px;
+    color: baby;
+}
+
+
