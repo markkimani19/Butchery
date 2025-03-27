@@ -1,10 +1,12 @@
-html body{
+html body {
     margin: 0;
     height: 100%;
+    font-family: 'Poppins', sans-serif;
 }
-h3{
+
+h3 {
     width: 20ch;
-    font-family: monospace;
+    font-family: 'Poppins', sans-serif;
     text-wrap: nowrap;
     overflow: hidden;
     animation: typing 2s steps(30) infinite alternate-reverse;
@@ -12,129 +14,137 @@ h3{
     text-align: center;
     font-size: 30px;
     display: flex;
-    color: orange;
+    color: #d35400; /* Food-related color */
 }
+
 @keyframes typing {
     from {
         width: 0ch;
     }
 }
+
 .marquee-container {
     overflow: hidden;
     white-space: nowrap;
     position: relative;
 }
+
 .marquee-content {
     display: inline-block;
     white-space: nowrap;
     font-size: 18px;
     animation: marquee 7s linear infinite;
 }
+
 @keyframes marquee {
-    0%{
+    0% {
         transform: translate(100%) scale(0.9);
         opacity: 0;
     }
-    10%{
+    10% {
         transform: translateX(70%) scale(1);
         opacity: 1;
     }
-    50%{
+    50% {
         transform: translateX(0);
     }
-    90%{
+    90% {
         opacity: 1;
     }
-    100%{
+    100% {
         transform: translateX(-100%);
         opacity: 0;
     }
 }
+
 @keyframes colorChange {
     0% {
-        color: pink;
+        color: #e67e22; /* Orange */
     }
     25% {
-        color: orange;
+        color: #f39c12; /* Light Orange */
     }
     50% {
-        color: purple;
+        color: #c0392b; /* Red */
     }
     75% {
-        color: green;
+        color: #27ae60; /* Green */
     }
     100% {
-        color: blue;
+        color: #2980b9; /* Blue */
     }
 }
 
 .marquee-content {
     animation: marquee 7s linear infinite, colorChange 7s linear infinite;
 }
-.marquee-container{
-    width: 1250px;
+
+.marquee-container {
+    width: 100%;
     height: 150px;
     border: none;
-    padding:50px;
+    padding: 50px;
     text-align: center;
-    background-color: papayawhip;
+    background-color: #f9e79f; /* Light food color */
     display: flex;
     align-items: center;
     justify-content: center;
-    background-position: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-
-
 }
-.head{
+
+.head {
     background-image: url(./img/butchery-3.avif);
     text-align: center;
     color: white;
     font-size: 30px;
     background-position: 100%;
-    height:80dvb;
+    height: 80vh; /* Changed to vh for better responsiveness */
     filter: brightness(90%);
 }
-body{
-    background-image: url(./but-5.avif) center/cover;
 
+body {
+    background-image: url(./but-5.avif);
+    background-position: center;
+    background-size: cover;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-#img{
+
+#img {
     display: flex;
     justify-content: center;
     gap: 100px;
     flex-wrap: nowrap;
-
 }
+
 #img img {
     width: 300px;
     height: 300px;
     border-radius: 50%;
     object-fit: cover;
 }
-.reach img{
+
+.reach img {
     display: flex;
     justify-content: center;
-    width:100px;
+    width: 100px;
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
     gap: 10px;
     text-align: center;
 }
-.atag{
+
+.atag {
     display: flex;
     flex-direction: row;
     gap: 10px;
     flex-wrap: nowrap;
 }
+
 .atag ul {
     list-style-type: none;
     padding: 0;
@@ -160,29 +170,34 @@ body{
 .atag ul li a:hover {
     background-color: #111;
 }
-.socialmedia{
+
+.socialmedia {
     display: flex;
     flex-direction: row;
     gap: 300px;
 }
-.reach p{
-    color: green;
-    text-align:left;
+
+.reach p {
+    color: #27ae60; /* Green */
+    text-align: left;
     font-size: 30px;
 }
+
 #comb {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
+
 .comb {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
+    justify-content: center;
     gap: 20px;
     text-align: center;
 }
+
 .comb img {
     width: 120px;
     height: 120px;
@@ -193,6 +208,7 @@ body{
     max-width: 200px;
     text-align: center;
 }
+
 .par {
     width: 90%;
     max-width: 800px;
@@ -200,28 +216,29 @@ body{
     margin-top: 20px;
     clear: both;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 700; 
+    font-weight: 700;
 }
-
 
 body, p, span, li, a {
     font-family: 'Merriweather', serif;
-    font-weight: 400; 
+    font-weight: 400;
     line-height: 1.6;
-    color: #333; 
+    color: #333;
 }
+
 button, input, textarea {
     font-family: 'Poppins', sans-serif;
 }
+
 body {
     margin: 0;
     padding: 0;
 }
-p{
+
+p {
     font-size: 20px;
-    color: baby;
+    color: #7d3c98; /* Purple food color */
 }
-
-

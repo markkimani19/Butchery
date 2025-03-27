@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Beef",
+      "description": "High-quality beef cuts, perfect for grilling and roasting.",
+      "image": "./img/beef.jpg",
+      "price": 15.99
+    },
+    {
+      "id": 2,
+      "name": "Mutton",
+      "description": "Tender mutton cuts, ideal for stews and curries.",
+      "image": "./img/mutton.jpg",
+      "price": 12.99
+    },
+    {
+      "id": 3,
+      "name": "Goat Meat",
+      "description": "Fresh goat meat, rich in flavor and nutrients.",
+      "image": "./img/goat.jpg",
+      "price": 14.99
+    },
+    {
+      "id": 4,
+      "name": "Pork",
+      "description": "Juicy pork cuts, great for barbecues and roasts.",
+      "image": "./img/pork.jpg",
+      "price": 13.99
+    },
+    {
+      "id": 5,
+      "name": "Chicken",
+      "description": "Farm-fresh chicken, perfect for any meal.",
+      "image": "./img/chicken.jpg",
+      "price": 9.99
+    }
+  ]
+}

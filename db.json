@@ -1,0 +1,21 @@
+{
+    "marquee": "BEEF. MUTTON. GOAT MEAT. BONES. GET QUALITY MEAT TODAY",
+    "offers": [
+        {
+            "image": "./img/meat2.webp",
+            "description": "High in protein, iron, B vitamins, zinc, boosts muscle growth."
+        },
+        {
+            "image": "./img/meat3.webp",
+            "description": "Rich in protein, iron, zinc, B vitamins, boosts immunity, strengthens bones."
+        },
+        {
+            "image": "./img/meat0.avif",
+            "description": "Lean protein, low fat, rich in iron, boosts immunity, heart-friendly."
+        },
+        {
+            "image": "./img/meat56.avif",
+            "description": "Why Buy and Eat Our Meat?"
+        }
+    ]
+}
